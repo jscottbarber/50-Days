@@ -1,4 +1,4 @@
 # 50-Days
 Python code examples
 
-**new_password.py** - Generates a new variable lenght password.
+**new_password.py** - Generates a new variable length password.
