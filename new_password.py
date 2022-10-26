@@ -24,9 +24,11 @@ def password_generator():
       password = str(random.choice(a))
       if password not in invalid_password_chars:
         valid_char = True
-      else:
-        print(f"Bad character found '{password}', trying again...")
+      # else:
+      #   print(f"Bad character found '{password}', trying again...")
     password1.append(password)
-  return 'Your password is', ''.join(password1)
 
-print(password_generator())
+  return ''.join(password1)
+
+print(f"\nYour new password is: '{password_generator()}'")
+# print(password_generator())
