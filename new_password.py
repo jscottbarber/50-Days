@@ -31,4 +31,3 @@ def password_generator():
   return ''.join(password1)
 
 print(f"\nYour new password is: '{password_generator()}'")
-# print(password_generator())
